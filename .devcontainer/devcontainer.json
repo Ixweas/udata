@@ -1,0 +1,11 @@
+{
+    "dockerComposeFile": "../docker-compose.perso.yml",
+    "workspaceFolder": "/workspace",
+    "service": "udata",
+	"extensions": [
+		"ms-python.python",
+        "octref.vetur"
+	],
+    "forwardPorts": [7000],
+    "postCreateCommand": "pip install -e udata && echo 'Setup is ready!'"
+}
